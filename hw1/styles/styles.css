@@ -1,0 +1,115 @@
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: Copperplate, Papyrus;
+    color: white;
+    text-align: center;
+}
+
+table {
+    font-family: Copperplate, Papyrus;
+}
+
+/* This gets rid of bullet points */
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: blue;
+}
+
+body {
+    font-size: 1em;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.border {
+    border-style: solid;
+    background-color: bisque;
+}
+
+.banner {
+    background-color: rgb(32, 209, 228);
+    border-top: solid;
+    border-bottom: solid;
+}
+
+nav{
+    /* clear property will move the nav element on its own line and left justify */
+    clear:left;
+    padding:2em;
+    margin-left: 5em;
+}
+
+nav ul li {
+    /* float is used for positioning */
+    float: left;
+    margin-right: 0.5em;
+}
+
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: #000000; /* pale bluish white */
+    color: #ffffff; /* font color dark blue */
+    border: 2px solid black;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+table {
+    border-style: solid;
+    margin: 5%;
+    margin-bottom: 20%;
+}
+
+caption {
+    font-size: 2em;
+}
+    
+td, th {
+    padding: .5em;
+    padding-right:5em;
+}
+    
+/*javascript css */
+li.jsList {
+    margin: 5%;
+}
+
+button.jsFun {  
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*jsDom.html css */
+table#bankTable {  
+    margin: 0 auto;
+}
+
+table#bankTable caption {
+   font-size: 1.5em;
+}
+
+h2#jsDom {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+button.bankAction {
+  margin-left: 35%;
+  margin-top:2%;
+}
